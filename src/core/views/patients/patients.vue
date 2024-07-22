@@ -141,7 +141,7 @@ onMounted(() => {
         </Card>
         <AlertDialog :open="isOpenModalAddUser">
             <AlertDialogContent>
-                <AlertDialogTitle>Adicionar farmaceuticos</AlertDialogTitle>
+                <AlertDialogTitle>Adicionar pacientes</AlertDialogTitle>
                 <div>
                     <span class="text-sm">E-mail</span>
                     <Input placeholder="E-mail" autocomplete="off" @input="handleChangeEmail" v-model="payload.email" />
